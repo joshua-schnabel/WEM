@@ -3,7 +3,7 @@ rootProject.name = 'wim'
 dependencyResolutionManagement {
     versionCatalogs {
         libs {
-        	version('mapstruct', '1.5.3.Final')
+        	version('mapstruct', '1.6.3')
             plugin('sdpmg', 'io.spring.dependency-management').version('1.1.0')
             plugin('versions', 'com.github.ben-manes.versions').version('0.46.0')
             plugin('dependencycheck', 'org.owasp.dependencycheck').version('8.2.1')
