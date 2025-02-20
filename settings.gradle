@@ -18,7 +18,7 @@ dependencyResolutionManagement {
 			library('flyway.mysql', 'org.flywaydb', 'flyway-mysql').version('9.16.1')
 		}
         spring {
-            version('spring-boot', '3.0.5')
+            version('spring-boot', '3.4.3')
             plugin('boot', 'org.springframework.boot').versionRef('spring-boot')
         	library('boot-dependencies', 'org.springframework.boot', 'spring-boot-dependencies').versionRef('spring-boot')			
         }
